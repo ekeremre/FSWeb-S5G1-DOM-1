@@ -102,3 +102,9 @@ document.getElementsByTagName("p")[3].textContent =
   "Ürünler içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 document.getElementsByTagName("p")[4].textContent =
   "Vizyon içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+document.getElementsByTagName("h4")[5].textContent = "İletişim";
+document.getElementsByTagName("p")[5].textContent =
+  "100 numara Bilmem ne sokak Ankara'da bir semt, Türkiye";
+document.getElementsByTagName("p")[6].textContent = "+90 (123) 456-7899";
+document.getElementsByTagName("p")[7].textContent =
+  "satis@birsirketsitesi.com.tr";
