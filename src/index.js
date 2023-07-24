@@ -95,3 +95,10 @@ const h4update4 = document.getElementsByTagName("h4")[3];
 h4update4.textContent = "Ürünler";
 const h4update5 = document.getElementsByTagName("h4")[4];
 h4update5.textContent = "Vizyon";
+
+document.getElementsByTagName("p")[2].textContent =
+  "Servisler içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+document.getElementsByTagName("p")[3].textContent =
+  "Ürünler içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+document.getElementsByTagName("p")[4].textContent =
+  "Vizyon içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
