@@ -49,7 +49,7 @@ console.log("Proje açıldı!");
 
 /* Kodlar Buradan aşağıya */
 
-var multiplelinks = document.querySelectorAll("a");
+var multiplelinks = document.querySelectorAll("nav a");
 multiplelinks[0].textContent = "Servisler";
 multiplelinks[1].textContent = "Ürünler";
 multiplelinks[2].textContent = "Vizyon";
@@ -108,3 +108,7 @@ document.getElementsByTagName("p")[5].textContent =
 document.getElementsByTagName("p")[6].textContent = "+90 (123) 456-7899";
 document.getElementsByTagName("p")[7].textContent =
   "satis@birsirketsitesi.com.tr";
+
+var footerlink = document.querySelector("footer a");
+footerlink.className = "bold";
+footerlink.textContent = "Copyright Bir Şirket Sitesi 2022";
