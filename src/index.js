@@ -63,3 +63,28 @@ for (const element of multiplelinks) {
 
 const imagelogo = document.getElementById("logo-img");
 imagelogo.setAttribute("src", "http://localhost:9000/img/logo.png");
+
+const h1update = document.getElementsByTagName("h1")[0];
+h1update.textContent = "Bu DOM Mükemmel";
+
+const buttonupdate = document.getElementsByTagName("button")[0];
+buttonupdate.textContent = "Başlayın";
+
+const ctaimage = document.getElementById("cta-img");
+ctaimage.setAttribute("src", "http://localhost:9000/img/cta.png");
+
+const h4update1 = document.getElementsByTagName("h4")[0];
+h4update1.textContent = "Özellikler";
+
+const pupdate1 = document.getElementsByTagName("p")[0];
+pupdate1.textContent =
+  "Özellikler içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+const h4update2 = document.getElementsByTagName("h4")[1];
+h4update2.textContent = "Hakkında";
+
+const pupdate2 = document.getElementsByTagName("p")[1];
+pupdate2.textContent =
+  "Hakkında içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const midimage = document.getElementById("middle-img");
+midimage.setAttribute("src", "http://localhost:9000/img/accent.png");
