@@ -88,3 +88,10 @@ pupdate2.textContent =
 
 const midimage = document.getElementById("middle-img");
 midimage.setAttribute("src", "http://localhost:9000/img/accent.png");
+
+const h4update3 = document.getElementsByTagName("h4")[2];
+h4update3.textContent = "Servisler";
+const h4update4 = document.getElementsByTagName("h4")[3];
+h4update4.textContent = "Ürünler";
+const h4update5 = document.getElementsByTagName("h4")[4];
+h4update5.textContent = "Vizyon";
